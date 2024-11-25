@@ -78,7 +78,7 @@ const AppContent = () => {
                         role === ROLES.ADMIN ? (
                             <HomePage username={username} />
                         ) : role === ROLES.SELLER && (
-                            <HomePageSeller username={username} />
+                            <HomePage username={username} />
                         )
                     }
                 />
