@@ -84,10 +84,10 @@ const AppContent = () => {
                 />
                 <Route path='https://kind-water-0356c4910.5.azurestaticapps.net/config' element={<Config userRol={role} username={username} handleLogout={handleLogout} />} />
                 <Route path='https://kind-water-0356c4910.5.azurestaticapps.net/config/login-to-change-password' element={<LoginFormChangePswd handleLogin={handleLogin} />} />
-                <Route path='/config/send-email-password' element={<SendEmailPassword />} />
-                <Route path='/config/check-token-password' element={<CheckPswdToken />} />
-                <Route path='/config/recovery-update-password' element={<RecoveryUpdatePassword />} />
-                <Route path='/config/update-password' element={<UpdatePassword username={username} />} />
+                <Route path='https://kind-water-0356c4910.5.azurestaticapps.net/config/send-email-password' element={<SendEmailPassword />} />
+                <Route path='https://kind-water-0356c4910.5.azurestaticapps.net/config/check-token-password' element={<CheckPswdToken />} />
+                <Route path='https://kind-water-0356c4910.5.azurestaticapps.net/config/recovery-update-password' element={<RecoveryUpdatePassword />} />
+                <Route path='https://kind-water-0356c4910.5.azurestaticapps.net/config/update-password' element={<UpdatePassword username={username} />} />
                 <Route path='/personal*' element={<Personal />} />
                 <Route path="/registrar-vendedor" element={<RegisterSeller />} />
                 <Route path="/registrar-proveedor" element={<RegisterProvider />} />
