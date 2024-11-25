@@ -56,7 +56,7 @@ const AppContent = () => {
 
     useEffect(() => {
         if (location.pathname === '/' ||
-            location.pathname === '/config/login-to-change-password' ||
+            location.pathname === 'https://kind-water-0356c4910.5.azurestaticapps.net/config/login-to-change-password' ||
             location.pathname === '/config/send-email-password' ||
             location.pathname === '/config/check-token-password' ||
             location.pathname === '/config/recovery-update-password' ||
@@ -82,8 +82,8 @@ const AppContent = () => {
                         )
                     }
                 />
-                <Route path='/config' element={<Config userRol={role} username={username} handleLogout={handleLogout} />} />
-                <Route path='/config/login-to-change-password' element={<LoginFormChangePswd handleLogin={handleLogin} />} />
+                <Route path='https://kind-water-0356c4910.5.azurestaticapps.net/config' element={<Config userRol={role} username={username} handleLogout={handleLogout} />} />
+                <Route path='https://kind-water-0356c4910.5.azurestaticapps.net/config/login-to-change-password' element={<LoginFormChangePswd handleLogin={handleLogin} />} />
                 <Route path='/config/send-email-password' element={<SendEmailPassword />} />
                 <Route path='/config/check-token-password' element={<CheckPswdToken />} />
                 <Route path='/config/recovery-update-password' element={<RecoveryUpdatePassword />} />
