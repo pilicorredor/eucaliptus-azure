@@ -35,6 +35,7 @@ const LoginForm = ({ handleLogin }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
+    console.log(username, password);
     try {
       const response = await fetch(SERVICES.LOGIN_SERVICE, {
         method: "POST",
