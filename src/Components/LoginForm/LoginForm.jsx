@@ -131,7 +131,7 @@ const LoginForm = ({ handleLogin }) => {
               />
               Recuerdame
             </label>
-            <a href="https://kind-water-0356c4910.5.azurestaticapps.net/config/send-email-password">
+            <a href="kind-water-0356c4910.5.azurestaticapps.net/config/send-email-password">
               ¿Olvidaste tu contraseña?
             </a>
           </div>
