@@ -1,0 +1,116 @@
+.products {
+  width: 90%;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.products-header {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.products-header button {
+  margin-right: 20px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  color: black;
+  transition: border-bottom 0.3s ease;
+}
+
+.products-header button.selected {
+  border-bottom: 3px solid #05972e;
+}
+
+.products-header button:hover {
+  border-bottom: 2px solid #ccc;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 8px 40px 8px 10px;
+  font-size: 16px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  width: 270px;
+  box-sizing: border-box;
+}
+
+.search-icon {
+  position: absolute;
+  right: 140px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: #999;
+  pointer-events: none;
+}
+
+.search-btn {
+  margin-left: 10px;
+  padding: 9px 16px;
+  background-color: #227e3c;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  width: 120px;
+  transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+  background-color: #125e28;
+}
+
+.new-btn {
+  padding: 9px 16px;
+  background-color: #227e3c;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  width: 120px;
+  transition: background-color 0.3s ease;
+}
+
+.new-btn:hover {
+  background-color: #125e28;
+}
+
+.filter-use {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-use label {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.filter-use .dropdown-button {
+  width: 150px;
+  text-align: left;
+}

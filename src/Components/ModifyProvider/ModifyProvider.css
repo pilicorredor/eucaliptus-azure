@@ -1,0 +1,100 @@
+.provider-section-container {
+  width: 90vw;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.provider-section {
+  position: relative;
+  width: 1400px;
+  max-width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 20px 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.provider-section::-webkit-scrollbar {
+  display: none;
+}
+
+.providerSection-title {
+  font-size: 1.5rem;
+}
+
+.providerForm {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.providerForm-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.providerForm-row {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.providerForm-item {
+  display: flex;
+  flex-direction: column;
+  width: 22vw;
+  gap: 5px;
+}
+.red {
+  color: red;
+}
+.providerForm-item input,
+.providerForm-item select {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 0px 10px;
+}
+
+.provider-button {
+  width: 200px;
+  height: 40px;
+  background-color: #227e3c;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.05rem;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+}
+.provider-button:hover {
+  scale: 1.05;
+}
+
+.provider-logo {
+  position: absolute;
+  top: 17vh;
+  width: 35%;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.companyFrom-container {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}

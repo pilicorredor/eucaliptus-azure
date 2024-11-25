@@ -1,0 +1,103 @@
+.notif-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  z-index: 1000;
+}
+
+.notif-content {
+  background: white;
+  border-radius: 10px;
+  width: 30%;
+  height: 72%;
+  margin-right: 2%;
+  margin-top: -2%;
+  overflow-y: auto;
+}
+
+.notif-header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #838383;
+  padding: 10px 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.header-logo {
+  margin-right: 10px;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-text h2,
+h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.header-text h2 {
+  font-size: 18px;
+  text-align: left;
+}
+
+.header-text h3 {
+  font-size: 14px;
+  text-align: left;
+  opacity: 50%;
+}
+
+.close-btn-notif {
+  top: 10px;
+  margin-left: 20px;
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #508c61;
+}
+
+.close-btn:hover {
+  color: #227e3c; /* Cambia el color cuando pasa el mouse */
+}
+
+.notif-body {
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.body-title {
+  margin-bottom: 10px;
+}
+
+.notif-body p {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  margin: 0;
+}
+
+.notification-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.alerta p {
+  font-weight: bold;
+  color: #f88f8f;
+}

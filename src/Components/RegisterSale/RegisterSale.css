@@ -1,0 +1,68 @@
+.customer-info-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 10px;
+}
+
+.customer-info-field {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.customer-info-field label {
+  margin-bottom: 5px;
+}
+
+.customer-input {
+  padding: 8px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.generate-sale-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.generate-sale-btn {
+  padding: 9px 16px;
+  background-color: #227e3c;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  width: 200px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.generate-sale-btn:hover {
+  background-color: #125e28;
+}
+
+.steps-section-register-sale {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 14px;
+  align-items: flex-start;
+}
+
+.step-by-step-register-sale {
+  font-size: 16px;
+  font-weight: bold;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.step-information-register-sale {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}

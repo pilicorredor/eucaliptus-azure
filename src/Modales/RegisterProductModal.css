@@ -1,0 +1,129 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #fff5eb;
+  padding: 20px;
+  border-radius: 8px;
+  width: 800px;
+  max-width: 90vw;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.productFormModal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.productFormModal-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.productFormModal-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.productFormModal-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 200px;
+  margin-right: 10px;
+  gap: 5px;
+}
+
+.red {
+  color: red;
+}
+
+.productFormModal-item input,
+.productFormModal-item select {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.product-buttonModal {
+  width: 200px;
+  height: 40px;
+  background-color: #227e3c;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.05rem;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.product-buttonModal:hover {
+  scale: 1.05;
+}
+
+.custom-textarea {
+  border-radius: 5px;
+  border: 1px solid;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+.page-loading-container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  top: 40%;
+  left: 46%;
+}
+
+.page-loading-icon {
+  width: 70px !important;
+  height: 70px !important;
+  z-index: 1000;
+}
+
+.unit-container {
+  display: flex;
+  align-items: center;
+}
+
+.unit-container select {
+  flex: 1;
+}
+
+.add-unit-btn {
+  margin-left: 8px;
+  padding: 5px 10px;
+  font-size: 18px;
+  background-color: #227e3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-unit-btn:hover {
+  background-color: #125e28;
+}

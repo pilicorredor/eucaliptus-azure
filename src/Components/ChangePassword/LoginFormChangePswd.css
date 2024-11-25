@@ -1,0 +1,130 @@
+.login-section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("../../Assets/FondoLogin.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.wrapper {
+  width: 550px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #000000;
+  border-radius: 20px;
+  padding: 20px 50px;
+}
+
+.wrapper h1 {
+  font-size: 25px;
+  text-align: center;
+  width: 100%;
+  height: 50%;
+}
+
+.wrapper .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border: 1px solid #000000;
+  outline: none;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #000000;
+  padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+  color: #000000;
+}
+
+.input-box .icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+
+.error-message {
+  color: #ff0000; /* Rojo para indicar error */
+  font-size: 14px; /* Tamaño pequeño */
+  margin-top: -26px; /* Ajustar la posición si es necesario */
+  margin-bottom: 20px; /* Espacio debajo del mensaje */
+  text-align: center; /* Centrar el mensaje */
+}
+
+.wrapper .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+  accent-color: #000000;
+  margin-right: 4px;
+}
+
+.remember-forgot a {
+  color: #20683d;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.wrapper .button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper button {
+  width: 50%;
+  height: 45px;
+  background: #227e3c;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 20px;
+  width: 150px;
+  height: auto;
+}
+
+.loading-container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  top: 40%;
+  left: 42%;
+}
+
+.loading-icon {
+  width: 70px !important;
+  height: 70px !important;
+  z-index: 1000;
+}

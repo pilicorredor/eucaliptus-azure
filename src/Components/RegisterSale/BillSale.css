@@ -1,0 +1,40 @@
+.sale {
+  width: 90vw;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.table-bill {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.billSale-buttons-box {
+  max-width: 500px;
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 20px auto;
+}
+
+.billSale-button {
+  width: 180px;
+  min-width: 100px;
+  height: 35px;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.check-button {
+  background-color: #227e3c;
+}

@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  padding: 10px 0;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 2px solid #ccc;
+  max-height: 100px;
+}
+
+.page-title {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.header-options {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Espacio entre los íconos */
+  margin: 0;
+  padding: 0;
+  margin-right: 50px;
+  font-size: 25px;
+}
+
+.header-options li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.header-logo {
+  width: 60px; /* Ajusta el tamaño de la imagen */
+  height: auto;
+  border-radius: 40%;
+  vertical-align: middle;
+}
+
+.header-link {
+  cursor: pointer;
+}

@@ -1,0 +1,90 @@
+.homepage-admin {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  position: relative;
+  width: 90%;
+  margin-left: 100px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.homepage-admin::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../Assets/logo2.png");
+  background-size: 350px 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.homepage-admin-content {
+  width: 93vw;
+  padding: 10px 25px;
+}
+
+.homepage-admin-welcoming-message h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.home-card-data {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  height: auto;
+  gap: 20px;
+}
+
+.home-data {
+  flex: 1;
+  padding: 10px;
+  text-align: left;
+}
+
+.home-data:not(:last-child) {
+  border-right: 1px solid #ddd;
+  padding-right: 70px;
+}
+
+.home-data:last-child {
+  padding-right: 70px;
+}
+
+.home-data p {
+  white-space: nowrap;
+  margin: 0;
+  font-size: 16px;
+  color: #786d6d;
+}
+
+.expire-products-label {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.expire-products-label img {
+  width: 40px;
+  height: auto;
+}
+
+.expire-products-label p {
+  margin-left: 10px;
+  margin-top: 5px;
+}

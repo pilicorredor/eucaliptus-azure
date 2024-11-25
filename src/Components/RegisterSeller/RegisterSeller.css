@@ -1,0 +1,102 @@
+.seller-section-container {
+  width: 90vw;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.seller-section {
+  position: relative;
+  width: 1400px;
+  max-width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.sellerSection-title {
+  font-size: 1.5rem;
+}
+
+.sellerForm {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.sellerForm-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sellerForm-row {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.sellerForm-item {
+  display: flex;
+  flex-direction: column;
+  width: 22vw;
+  gap: 5px;
+}
+.red {
+  color: red;
+}
+.sellerForm-item input,
+.sellerForm-item select {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 0px 10px;
+}
+
+.seller-button {
+  width: 200px;
+  height: 40px;
+  background-color: #227e3c;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.05rem;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+}
+.seller-button:hover {
+  scale: 1.05;
+}
+
+.seller-logo {
+  position: absolute;
+  top: 17vh;
+  width: 35%;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.page-loading-container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  top: 40%;
+  left: 46%;
+}
+
+.page-loading-icon {
+  width: 70px !important;
+  height: 70px !important;
+  z-index: 1000;
+}
