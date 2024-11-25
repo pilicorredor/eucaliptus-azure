@@ -6,7 +6,7 @@ import { ButtonProvider } from './Context/ButtonContext';
 import { ProductProvider } from './Context/ProductContext';
 import LoginForm from './Components/LoginForm/LoginForm';
 import HomePage from './Components/HomePage/HomePage';
-import HomePageSeller from './Components/HomePageSeller/HomePageSeller';
+// import HomePageSeller from './Components/HomePageSeller/HomePageSeller';
 import Personal from './Components/Personal/Personal';
 import Navbar from './Components/SideNavbar/Navbar';
 import RegisterSeller from './Components/RegisterSeller/RegisterSellerPage';
