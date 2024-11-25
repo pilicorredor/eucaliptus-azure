@@ -4,7 +4,7 @@ import { FaEye, FaUser } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 import logo from "../../Assets/logo2.png";
 import { useNavigate } from "react-router-dom";
-import { SERVICES } from "../../Constants/Constants";
+// import { SERVICES } from "../../Constants/Constants";
 import CircularProgress from "@mui/material/CircularProgress";
 
 const LoginForm = ({ handleLogin }) => {
