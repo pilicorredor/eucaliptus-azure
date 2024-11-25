@@ -17,7 +17,7 @@ const Navbar = ({ username, role, handleLogout }) => {
     }
   }, [role]);
 
-  const sellFields = ["Inicio", "Personal", "Productos", "Registrar venta"];
+  const sellFields = ["Inicio", "Productos", "Registrar venta"];
 
   return (
     <div className="sidebar">

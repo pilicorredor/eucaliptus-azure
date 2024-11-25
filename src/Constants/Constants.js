@@ -1,5 +1,5 @@
 export const SERVICES = {
-    LOGIN_SERVICE: 'http://localhost:8081/auth/login',
+    LOGIN_SERVICE: 'https://eucaliptus-authentication-e2bnbreub2a5hyfm.centralus-01.azurewebsites.net',
     RECOVERY_EMAIL_REQUEST: 'http://localhost:8081/auth/requestRecoveryPassword',
     RECOVERY_VALIDATE_CODE: 'http://localhost:8081/auth/validateRecoveryCode',
     RECOVERY_PASSWORD: 'http://localhost:8081/auth/recoveryPassword',
