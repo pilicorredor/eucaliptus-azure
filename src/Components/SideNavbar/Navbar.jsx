@@ -17,7 +17,7 @@ const Navbar = ({ username, role, handleLogout }) => {
     }
   }, [role]);
 
-  const sellFields = ["Inicio", "Productos", "Registrar venta"];
+  // const sellFields = ["Inicio", "Productos", "Registrar venta"];
 
   return (
     <div className="sidebar">
@@ -29,7 +29,8 @@ const Navbar = ({ username, role, handleLogout }) => {
       <hr className="divider" />
       <ul className="nav-menu-items">
         {SidebarData.filter((item) => {
-          return role === ROLES.ADMIN || sellFields.includes(item.title);
+          return role === ROLES.ADMIN;
+          // return role === ROLES.ADMIN || sellFields.includes(item.title);
         }).map((item, index) => (
           <li key={index}>
             <Link to={item.path} className="item">
