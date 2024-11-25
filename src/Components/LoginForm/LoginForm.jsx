@@ -132,7 +132,7 @@ const LoginForm = ({ handleLogin }) => {
               />
               Recuerdame
             </label>
-            <a href="/config/send-email-password">¿Olvidaste tu contraseña?</a>
+            <a href="/config-send-email-password">¿Olvidaste tu contraseña?</a>
           </div>
           <div className="button-container">
             <button type="submit">Entrar</button>
