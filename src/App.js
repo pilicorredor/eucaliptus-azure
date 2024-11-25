@@ -6,7 +6,7 @@ import { ButtonProvider } from './Context/ButtonContext';
 import { ProductProvider } from './Context/ProductContext';
 import LoginForm from './Components/LoginForm/LoginForm';
 import HomePage from './Components/HomePage/HomePage';
-// import HomePageSeller from './Components/HomePageSeller/HomePageSeller';
+import HomePageSeller from './Components/HomePageSeller/HomePageSeller';
 import Personal from './Components/Personal/Personal';
 import Navbar from './Components/SideNavbar/Navbar';
 import RegisterSeller from './Components/RegisterSeller/RegisterSellerPage';
@@ -78,16 +78,16 @@ const AppContent = () => {
                         role === ROLES.ADMIN ? (
                             <HomePage username={username} />
                         ) : role === ROLES.SELLER && (
-                            <HomePage username={username} />
+                            <HomePageSeller username={username} />
                         )
                     }
                 />
                 <Route path='/config' element={<Config userRol={role} username={username} handleLogout={handleLogout} />} />
-                <Route path='/config-login-to-change-password' element={<LoginFormChangePswd handleLogin={handleLogin} />} />
-                <Route path='/config-send-email-password' element={<SendEmailPassword />} />
-                <Route path='/config-check-token-password' element={<CheckPswdToken />} />
-                <Route path='/config-recovery-update-password' element={<RecoveryUpdatePassword />} />
-                <Route path='/config-update-password' element={<UpdatePassword username={username} />} />
+                <Route path='/config/login-to-change-password' element={<LoginFormChangePswd handleLogin={handleLogin} />} />
+                <Route path='/config/send-email-password' element={<SendEmailPassword />} />
+                <Route path='/config/check-token-password' element={<CheckPswdToken />} />
+                <Route path='/config/recovery-update-password' element={<RecoveryUpdatePassword />} />
+                <Route path='/config/update-password' element={<UpdatePassword username={username} />} />
                 <Route path='/personal*' element={<Personal />} />
                 <Route path="/registrar-vendedor" element={<RegisterSeller />} />
                 <Route path="/registrar-proveedor" element={<RegisterProvider />} />
